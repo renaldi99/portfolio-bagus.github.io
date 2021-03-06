@@ -1,0 +1,362 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #3e4bc4;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #707070;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3e4bc4;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 400;
+  color: #707070 !important;
+}
+
+.btn-order {
+  color: #fff;
+  background-color: #3e4bc4;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn-order:hover {
+  color: #fff;
+  background-color: #829be5;
+}
+
+.hero {
+  margin-top: -90px;
+  background: #3998bc;
+  background: linear-gradient(45deg, #3998bc 0%, #3d60c2 100%);
+  background: cover;
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+
+.hero h1,
+.hero p {
+  color: #fff;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  color: #3e4bc4;
+}
+
+.section-content {
+  min-height: 528px;
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.section-content h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.section-content p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+}
+
+.section-content .btn-learn-more {
+  color: #fff;
+  background-color: #ff9100;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.section-content .btn-learn-more:hover {
+  color: #fff;
+  background-color: #f3a844;
+}
+
+.section-service {
+  padding: 50px 0 50px;
+}
+
+.section-service .section-service-title h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.section-service .section-service-title p {
+  color: #c8c8c8;
+  font-weight: 300;
+}
+
+.section-service .section-service-content {
+  margin-top: 52px;
+}
+
+.section-service .section-service-content .card-service {
+  border: 0;
+  border-radius: 5px;
+  padding: 35px 30px;
+  height: 325px;
+  width: 352px;
+  background-color: #fbfbfb;
+  -webkit-box-shadow: 0px 1px 5px rgba(62, 75, 196, 0.2);
+          box-shadow: 0px 1px 5px rgba(62, 75, 196, 0.2);
+}
+
+.section-service .section-service-content .card-service .service-icon {
+  margin-bottom: 37px;
+}
+
+.section-service .section-service-content .card-service .service-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.section-service .section-service-content .card-service .service-text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-service .section-service-content .card-service-middle {
+  border: 0;
+  border-radius: 5px;
+  padding: 35px 30px;
+  height: 325px;
+  width: 352px;
+  background-color: #3e4bc4;
+  -webkit-box-shadow: 0px 1px 5px rgba(62, 75, 196, 0.2);
+          box-shadow: 0px 1px 5px rgba(62, 75, 196, 0.2);
+}
+
+.section-service .section-service-content .card-service-middle .service-icon {
+  margin-bottom: 37px;
+}
+
+.section-service .section-service-content .card-service-middle .service-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.section-service .section-service-content .card-service-middle .service-text {
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-tools {
+  padding: 50px 0 50px;
+}
+
+.section-tools h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.section-tools p {
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+}
+
+.section-testimonials {
+  padding: 50px 0 75px;
+  background-color: #787b94;
+  min-height: 480px;
+}
+
+.section-testimonials h2 {
+  font-family: "Pacifico", cursive;
+  color: #fff;
+  font-size: 30px;
+}
+
+.section-testimonials p {
+  font-weight: 300;
+  color: #c8c8c8;
+  font-size: 20px;
+}
+
+.section-testimonials .section-testimonials-area {
+  margin-top: 80px;
+}
+
+.section-testimonials .section-testimonials-area .single-testimonials {
+  margin-bottom: 20px;
+}
+
+.section-testimonials .section-testimonials-area .single-testimonials p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 34px 0 10px 0;
+}
+
+.section-testimonials .section-testimonials-area .single-testimonials .testimonials-name {
+  color: #c8c8c8;
+}
+
+.section-testimonials .section-testimonials-area .single-testimonials .testimonials-name h3 {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.section-testimonials .section-testimonials-area .owl-carousel .owl-item img {
+  width: auto;
+  display: inline-block;
+}
+
+.section-testimonials .section-testimonials-area .owl-carousel .owl-nav {
+  display: none;
+}
+
+.section-testimonials .section-testimonials-area .owl-carousel .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.section-testimonials .section-testimonials-area .owl-carousel .owl-dots .owl-dot {
+  width: 12px;
+  height: 12px;
+  background: #aab1b7;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.section-testimonials .section-testimonials-area .owl-carousel .owl-dots .active {
+  background: #ff4a52;
+}
+
+.section-banner {
+  padding: 80px 0 80px;
+  background: url(../images/banner.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 10;
+}
+
+.section-banner.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+  opacity: 0.5;
+  z-index: -1;
+  mix-blend-mode: hard-light;
+}
+
+.section-banner h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #fff;
+}
+
+.section-banner h2 span {
+  color: #3e4bc4;
+}
+
+.section-banner .btn-order-banner {
+  color: #fff;
+  background-color: #ff9100;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.section-banner .btn-order-banner:hover {
+  color: #fff;
+  background-color: #f3a844;
+}
+
+@media (min-width: 575.99px) {
+  .section-service .section-service-content .card-service {
+    width: 100%;
+  }
+  .section-service .section-service-content .card-service-middle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-order {
+    margin: 10px 0 10px;
+    width: 100%;
+  }
+  .hero {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  }
+  .hero .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero .btn-order {
+    display: inline;
+  }
+  .hero img {
+    margin-top: 50px;
+  }
+  .section-content {
+    padding: 30px 0;
+  }
+  .section-content .img-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-ordinal-group: 10000;
+        -ms-flex-order: 9999;
+            order: 9999;
+  }
+  .section-service {
+    padding: 30px 0;
+  }
+  .section-service .section-service-content .card-service {
+    width: 100%;
+  }
+  .section-service .section-service-content .card-service-middle {
+    width: 100%;
+  }
+  .section-tools {
+    padding: 30px 0;
+    border-top: 1px solid #e9e9e9;
+  }
+  .section-tools h2 {
+    margin: 16px 0;
+  }
+  .section-testimonials {
+    padding: 30px 0 60px 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
