@@ -30,3 +30,12 @@ var typed = new Typed(".animate", {
   loop: true,
   startDelay: 1000,
 });
+
+// lottie - Animations
+var animation = bodymovin.loadAnimation({
+  container: document.getElementById("lottie-animate"), // the dom element that will contain the animation
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+  path: "./frontend/images/lottie/designer.json", // the path to the animation json
+});
