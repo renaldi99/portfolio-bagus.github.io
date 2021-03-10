@@ -1,3 +1,31 @@
+// page-scroll
+//event page scroll sementara
+
+$(".page-scroll").on("click", function () {
+  var link = $(this).attr("href");
+  var elementLink = $(link);
+
+  // console.log(elementLink);
+  //move
+  $("html, body").animate(
+    {
+      scrollTop: elementLink.offset().top + 50,
+    },
+    1000
+  );
+});
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+};
+
 // slider-testimonial
 $(".owl-carousel").owlCarousel({
   loop: true,

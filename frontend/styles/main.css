@@ -38,6 +38,7 @@ body {
   background: #3998bc;
   background: linear-gradient(45deg, #3998bc 0%, #3d60c2 100%);
   background: cover;
+  overflow-y: hidden;
 }
 
 .hero .content {
@@ -51,12 +52,12 @@ body {
 
 .hero .img-hero .lottie-animation {
   position: absolute;
-  height: 600px;
-  width: 600px;
+  height: 540px;
+  width: 540px;
   margin: auto;
-  top: 0;
+  top: 80px;
   right: 0;
-  bottom: 25px;
+  bottom: 0;
 }
 
 .hero h1,
