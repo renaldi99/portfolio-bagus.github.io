@@ -56,12 +56,15 @@ body {
   }
 
   .img-hero {
+    position: relative;
     .lottie-animation {
       position: absolute;
       height: 600px;
       width: 600px;
+      margin: auto;
+      top: 0;
       right: 0;
-      bottom: 0;
+      bottom: 25px;
     }
   }
 
@@ -344,16 +347,16 @@ body {
   }
 
   .hero {
-    min-height: 900px;
+    min-height: 860px;
     overflow-y: hidden;
     .img-hero {
       .lottie-animation {
         position: absolute;
         width: 480px;
         height: 480px;
-        top: 420px;
+        top: 0;
         right: 0;
-        bottom: 0;
+        bottom: -110px;
       }
     }
     .content {

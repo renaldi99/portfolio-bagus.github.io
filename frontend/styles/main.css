@@ -45,12 +45,18 @@ body {
   padding-bottom: 120px;
 }
 
+.hero .img-hero {
+  position: relative;
+}
+
 .hero .img-hero .lottie-animation {
   position: absolute;
   height: 600px;
   width: 600px;
+  margin: auto;
+  top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 25px;
 }
 
 .hero h1,
@@ -321,16 +327,16 @@ body {
     width: 100%;
   }
   .hero {
-    min-height: 900px;
+    min-height: 860px;
     overflow-y: hidden;
   }
   .hero .img-hero .lottie-animation {
     position: absolute;
     width: 480px;
     height: 480px;
-    top: 420px;
+    top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -110px;
   }
   .hero .content {
     padding-top: 130px;
