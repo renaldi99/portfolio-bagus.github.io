@@ -9,7 +9,7 @@ $(".page-scroll").on("click", function () {
   //move
   $("html, body").animate(
     {
-      scrollTop: elementLink.offset().top + 50,
+      scrollTop: elementLink.offset().top + 10,
     },
     1000
   );
